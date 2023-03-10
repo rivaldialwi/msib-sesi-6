@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div>
+            <h2>Login Sederhana</h2>
+            <form id="login-form">
+                <label for="username" class="label">Username:</label>
+                <input type="text" class="input" name="username" id="username" required>
+                
+                <br>
+                
+                <label for="password" class="label">Password:</label>
+                <input type="password" class="input" name="password" id="password" required>
+                
+                <br>
+                
+                <button type="button" class="button-form" onclick="validateLogin()">Submit</button>
+            </form>
+        </div>
+    
+        <BR></BR>
+    
+        <div>
+            <h2>Perhitungan Grade Nilai</h2>
+            <label for="username" class="label">Masukan Nilai Anda:</label>
+            <input type="number" class="input" name="username" id="nilai" required>
+    
+            <br>
+    
+            <button type="button" class="button-form" onclick="hitungNilai()">Submit</button>
+        </div>
+    
+        <BR></BR>
+    
+        <div>
+            <h2>Perulangan For</h2>
+            <label for="username" class="label">Masukan Nama Anda :</label>
+            <input type="text" class="input" name="username" id="nama" required>
+    
+            <br>
+    
+            <button type="button" class="button-form" onclick="nama()">Submit</button>
+        </div>
+    
+        <div>
+            <h2>Perulangan while</h2>
+            <label for="username" class="label">Masukan Nama Anda :</label>
+            <input type="text" class="input" name="username" id="while" required>
+    
+            <br>
+    
+            <button type="button" class="button-form" onclick="namaWhile()">Submit</button>
+        </div>
+            <br>
+        <div>
+            <h2>Piramida</h2>
+    
+            <button type="button" class="button-form" onclick="displayPiramin()">Submit</button>
+        </div>
+
+    </div>
+    
+</body>
+
+<script src="main.js"></script>
+</html>
